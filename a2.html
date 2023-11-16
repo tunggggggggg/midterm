@@ -28,7 +28,7 @@
     <script>
       function show1()
       {
-        ementById("g1").fontsize=c1.value + "px"
+        document.getElementById("g1").style.fontSize = y1.value+"px"
 
       }
 
@@ -41,9 +41,8 @@
 
       function show3()
       {
-        
-        document.querySelectorAll("g1").forEach 
-        ((g1) => {g1.style.color = c2.target.value;});
+        document.getElementById("g1").style.color = c2.value
+
       }
     </script>
 
